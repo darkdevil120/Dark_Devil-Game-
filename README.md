@@ -1,10 +1,10 @@
-# Hamster Kombat Clone
+# Dark_Devil Kombat 
 
-This repository contains the initial setup and the final version of the Hamster Kombat clone project, including the basic project structure, necessary images, and icons.
+This repository contains the initial setup and the final version of the Dark_Devil Kombat  project, including the basic project structure, necessary images, and icons.
 
 ## Overview
 
-This project is a clone of the popular Telegram mini app, Hamster Kombat. The repository provides two branches:
+This project is a clone of the popular Telegram mini app, Dark_Devil Kombat. The repository provides two branches:
 
 1. **Initial Setup**: Provides the foundational structure and assets needed to build the full application.
 2. **Final Version**: The completed application with all functionalities.
@@ -70,7 +70,4 @@ To get started with either the initial setup or the final version, follow these 
 
     Navigate to localhost to see the final version of the application.
 
-## Contact
-
-For any inquiries, please contact me in Telegram: [Nikandr Surkov](https://t.me/nikandr_s).
 
