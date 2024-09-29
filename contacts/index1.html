@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style1.css">
+	<title>Contact</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Get in Touch</h2>
+		<form onsubmit="emailSend(); reset(); return false;">
+			<input type="text" id="name" placeholder="Name" name="name" required>
+			<input type="text" id="phone" placeholder="Phone" name="phone" required>
+			<input type="email" id="email" placeholder="Email" name="email" required>
+			<button type="submit" class="btn">Submit</button>
+		</form>
+	</div> 
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+	<script src="index1.js"></script>
+</body>
+</html>
