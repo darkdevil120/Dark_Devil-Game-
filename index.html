@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ 
+    
+    <title>Game Environment Detection</title>
+    <style>
+        /* CSS to show/hide sections based on environment */
+        .telegram-content, .chrome-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="telegram" class="telegram-content">
+        <h1>Welcome from Telegram!</h1>
+      <meta http-equiv="refresh" content="1;url=/Loading/index1.html">
+    </div>
+
+    <div id="chrome" class="chrome-content">
+      <h1>Welcome from chrome!</h1>
+     <meta http-equiv="refresh" content="1;url=/Main/index.html">
+    </div>
+
+    <script>
+        // Detect the environment using the user-agent
+        const userAgent = navigator.userAgent || navigator.vendor;
+
+        function showContentBasedOnEnvironment() {
+            const isTelegram = /Telegram/i.test(userAgent);
+            const isChrome = /Chrome/i.test(userAgent) && !isTelegram; // Prioritize Telegram if detected
+
+            if (isTelegram) {
+                document.getElementById("telegram").style.display = "block";
+            } else if (isChrome) {
+                document.getElementById("chrome").style.display = "block";
+            } else {
+                alert("Unknown environment!");
+            }
+        }
+
+        // Call the function to display the appropriate content
+        showContentBasedOnEnvironment();
+    </script>
+</body>
+</html>
