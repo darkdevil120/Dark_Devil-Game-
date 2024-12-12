@@ -121,6 +121,7 @@ body{
 
 
 .button{
+  display: inline;
   text-decoration: none;
   width: 70px;
   height: 30px;
