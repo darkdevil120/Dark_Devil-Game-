@@ -1,22 +1,22 @@
-import Paddle from "Space-Game/src/paddle.js";
+import Paddle from "/Space-Game/src/paddle.js";
 
-import InputHanderler from "Space-Game/src/inputHandeler.js";
+import InputHanderler from "/Space-Game/src/inputHandeler.js";
 
-import Enemy from "Space-Game/src/enemy.js";
+import Enemy from "/Space-Game/src/enemy.js";
 
-import MEnemy from "Space-Game/src/mEnemy.js";
+import MEnemy from "/Space-Game/src/mEnemy.js";
 
-import HealthPack from "Space-Game/src/healthPack.js";
+import HealthPack from "/Space-Game/src/healthPack.js";
 
-import Star from "Space-Game/src/star.js";
+import Star from "/Space-Game/src/star.js";
 
-import Bullet from "Space-Game/src/bullet.js";
+import Bullet from "/Space-Game/src/bullet.js";
 
-import SLBullet from "Space-Game/src/sLBullet.js";
+import SLBullet from "/Space-Game/src/sLBullet.js";
 
-import SRBullet from "Space-Game/src/sRBullet.js";
+import SRBullet from "/Space-Game/src/sRBullet.js";
 
-import Load from "Space-Game/src/load.js";
+import Load from "/Space-Game/src/load.js";
 
 const GameScreen = document.getElementById("GameScreen");
 
